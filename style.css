@@ -1,0 +1,181 @@
+body {
+  background-color:pink;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  
+}
+
+.typewriter {
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+#parent {
+  height: 40px;
+  white-space: nowrap;
+  overflow: hidden; 
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+  position: relative;
+}
+
+#border {
+  border-bottom: solid 3px rgba(0,255,0,.75);
+  position: absolute;
+  right: -7px;
+  width: 20px;
+}
+
+/* Animation */
+#parent {
+  animation: animated-text 2s steps(30,end) 1s 1 normal both
+}
+
+#border {
+   animation: animated-cursor 600ms steps(30,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 100%;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-bottom-color: rgba(0,255,0,.75);}
+  to{border-bottom-color: transparent;}
+}
+
+
+
+/* ABOUT  */
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#profile-image {
+  border-radius: 50%;
+  height: 250px;
+  width: 200px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180vh;
+  padding: 10px;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+}
+
+#about-text{
+  width: 180vh;
+  padding: 50px 0 0 0 ;
+}
+
+/* SKILLS */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+ 
+  /* height: 100px;
+  width: 100px; */
+}
+
+.icons {
+  height: 30px;
+  padding: 30px;
+}
+
+svg {
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* WORK */
+
+.work-section{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.work-title {
+
+  padding: 100px 0 0 0 ;
+}
+
+.project-desc {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projectinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.images {
+  height: 100vh;
+  width: 80vh;
+  padding: 20px;
+}
+
+.project-text{
+  width: 110vh;
+}
+
+.project-links{
+  padding: 20px;
+}
