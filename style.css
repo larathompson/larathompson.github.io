@@ -1,12 +1,14 @@
 body {
   /* background-color:pink; */
-    background-image: linear-gradient(to bottom, #104c8d, #00438e, #00398e, #042f8c, #162289, #1c218c, #21208e, #261e91, #232b9c, #2037a7, #1c42b1, #174dbb);
+  background: #162289;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
+  font-family: 'Londrina Solid', cursive;
+  /* font-size: 30px; */
 }
 
 h1.work-title{
@@ -14,6 +16,7 @@ h1.work-title{
 }
 
 .nav{
+  background: #162289;
   /* width: 100%; */
   display: flex;
   flex-direction: row;
@@ -21,6 +24,8 @@ h1.work-title{
   padding: 20px 0px;
   font-size: 30px;
   color: white;
+  font-family: 'Londrina Solid', cursive;
+  
  
   /* background-color:rgba(10,3,116,1); */ 
 }
@@ -28,6 +33,7 @@ h1.work-title{
 .navbar-item {
   color: white;
   padding: 20px;
+  text-decoration: none;
 }
 
 
@@ -41,11 +47,16 @@ h1.work-title{
   height: 80px;
   white-space: nowrap;
   overflow: hidden; 
-  font-family: 'Source Code Pro', monospace;  
-  font-size: 45px;
-  color: rgba(255,255,255,.70);
+  font-family: 'Londrina Solid', cursive;
+  /* font-family: 'Source Code Pro', monospace;   */
+  font-size: 70px;
+  color: white;
   position: relative;
-  padding-left: 295px;
+  /* padding-left: 295px; */
+  text-align: center;
+  background: #162289;
+  width: 100%;
+  padding: 200px 0;
   
 }
 
@@ -87,6 +98,9 @@ h1.work-title{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 20px;
+  line-height: 1.6;
+  background: #2037a7;
 }
 
 #profile-image {
@@ -101,17 +115,24 @@ h1.work-title{
   flex-direction: column;
   align-items: center;
   width: 186vh;
-  padding: 10px;
+  padding: 40px;
 }
 
 .columns {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+    align-items: center;
 }
 
 #about-text{
-  width: 150vh;
+  width: 170vh;
   text-align: left;
+}
+
+h1.work-title {
+  font-size: 45px;
+  padding: 0px;
 }
 
 /* SKILLS */
@@ -120,10 +141,15 @@ h1.work-title{
   flex-direction: column;
   align-items: center;
   text-align: center;
+  font-size: 25px;
+  /* white-space:pre; */
+  word-spacing: 10px;
+  background: #361EBC;
 }
 
 .softskills {
   padding: 30px;
+  margin: 0px;
 }
 
 /* .icons {
@@ -140,10 +166,17 @@ svg {
 
 /* WORK */
 
+hr {
+  margin: 0;
+  width: 500px;
+}
+
 .work-section{
   display:flex;
   flex-direction: column;
   align-items: center;
+  background: #070246;
+  width: 100%;
 }
 
 .singleProject {
@@ -151,9 +184,10 @@ svg {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  width: 100%;
+  
   background: #070246;
   padding: 20px;
+  border: 10px;
   
 }
 
@@ -188,6 +222,7 @@ img.static {
   
   width: 450px;
   padding: 30px;
+  border-radius: 7%;
 }
 
 .projectinfo {
@@ -198,53 +233,54 @@ align-items: center;
 }
 
 a.button {
-  padding: 20px;
+  padding: 7px;
   background: #3500ff;
   border-radius: 5%;
   color: white;
 }
 
-
-
-
-
-/* .project-desc {
-display: flex;
-flex-direction: column;
-} */
-
-
-
-/* .work-title {
-padding: 100px 0 0 0 ;
+.project-links {
+  padding: 5px;
 }
 
-.static {
-  align-items: left;
-}
+ /* contact */
 
-.project-desc {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-}
+ #contact-section {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+   width: 100%
+ }
 
-.projectinfo {
+ h1.contactTitle {
+   text-align: center;
+ }
+
+
+ .contact-links {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-}
+  justify-content: center; }
 
-.images {
-  height: 100vh;
-  width: 80vh;
-  padding: 20px;
-}
+  .contact-links .button {
+    margin: 0 10px;
+    border: 1px solid #3c2e3d;
+    transition: 0.3s ease;
+    text-decoration: none;
+   }
 
-.project-text{
-  width: 110vh;
-}
+    .contact-links .button:hover {
+      transform: scale(1.03); }
 
-.project-links{
-  padding: 20px;
-} */
+      .underline {
+        
+  width: 500px;
+        margin: 0 auto;
+        margin-bottom: 24px;
+        border-top: 1px solid white;
+    }
+
+
+
+
