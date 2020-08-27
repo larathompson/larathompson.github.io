@@ -1,61 +1,52 @@
 body {
-  background-color:pink;
+  /* background-color:pink; */
+    background-image: linear-gradient(to bottom, #104c8d, #00438e, #00398e, #042f8c, #162289, #1c218c, #21208e, #261e91, #232b9c, #2037a7, #1c42b1, #174dbb);
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  
+  align-items: center;
+  color: white;
+}
+
+h1.work-title{
+  padding: 30px;
 }
 
 .nav{
+  /* width: 100%; */
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  padding: 20px 0px;
+  font-size: 30px;
+  color: white;
+ 
+  /* background-color:rgba(10,3,116,1); */ 
+}
+
+.navbar-item {
+  color: white;
   padding: 20px;
-  
 }
-
-.typewriter {
-  font-size: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 90vh;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
 
 
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 
 #parent {
-  height: 40px;
+  /* display: flex;
+  justify-content: center; */
+  
+  height: 80px;
   white-space: nowrap;
   overflow: hidden; 
   font-family: 'Source Code Pro', monospace;  
-  font-size: 28px;
+  font-size: 45px;
   color: rgba(255,255,255,.70);
   position: relative;
+  padding-left: 295px;
+  
 }
 
 #border {
@@ -101,14 +92,15 @@ body {
 #profile-image {
   border-radius: 50%;
   height: 250px;
-  width: 200px;
+  width: 220px;
+  padding: 15px;
 }
 
-.info{
+.info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 180vh;
+  width: 186vh;
   padding: 10px;
 }
 
@@ -118,20 +110,23 @@ body {
 }
 
 #about-text{
-  width: 180vh;
-  padding: 50px 0 0 0 ;
+  width: 150vh;
+  text-align: left;
 }
 
 /* SKILLS */
 .skills {
   display: flex;
-  flex-wrap: wrap;
- 
-  /* height: 100px;
-  width: 100px; */
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.icons {
+.softskills {
+  padding: 30px;
+}
+
+/* .icons {
   height: 30px;
   padding: 30px;
 }
@@ -139,7 +134,8 @@ body {
 svg {
   display: flex;
   flex-direction: row;
-}
+  flex-wrap: wrap;
+} */
 
 
 /* WORK */
@@ -149,9 +145,82 @@ svg {
   flex-direction: column;
   align-items: center;
 }
-.work-title {
 
-  padding: 100px 0 0 0 ;
+.singleProject {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background: #070246;
+  padding: 20px;
+  
+}
+
+.projectText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  max-width: 500px;
+}
+
+/* .project-links {
+  align-items: center;
+  padding-left: 160px;;
+} */
+
+p.project-details {
+  padding: 0px;
+  margin: 0px;
+}
+
+p.project-text {
+  padding: 0px;
+  /* width: 400px; */
+}
+
+h1.title{
+  padding: 0px;
+}
+
+img.static {
+  
+  width: 450px;
+  padding: 30px;
+}
+
+.projectinfo {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+a.button {
+  padding: 20px;
+  background: #3500ff;
+  border-radius: 5%;
+  color: white;
+}
+
+
+
+
+
+/* .project-desc {
+display: flex;
+flex-direction: column;
+} */
+
+
+
+/* .work-title {
+padding: 100px 0 0 0 ;
+}
+
+.static {
+  align-items: left;
 }
 
 .project-desc {
@@ -178,4 +247,4 @@ svg {
 
 .project-links{
   padding: 20px;
-}
+} */
