@@ -120,6 +120,7 @@ h1.work-title{
 }
 
 .columns {
+  max-width: 1100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
