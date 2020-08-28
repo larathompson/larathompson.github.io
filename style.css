@@ -124,6 +124,7 @@ h1.work-title{
   flex-direction: row;
   justify-content: center;
     align-items: center;
+    padding: 30px 100px;
 }
 
 #about-text{
