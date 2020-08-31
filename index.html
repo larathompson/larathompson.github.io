@@ -12,92 +12,95 @@
 </head>
 
 <body>
-  
-    <nav class="nav">
-      <a class="navbar-item" href="#mainSection-section"> Home </a>
-      <a class="navbar-item" href="#about-section"> About </a>
-      <a class="navbar-item" href="#skills-section"> Skills </a>
-      <a class="navbar-item" href="#work-section"> Work </a>
-      <a class="navbar-item" href="#contact-section"> Contact </a>
-    </nav>
 
-    <div id="parent">
-      Lara Thompson | Web Developer
+  <nav class="nav">
+    <a class="navbar-item" href="#mainSection-section"> Home </a>
+    <a class="navbar-item" href="#about-section"> About </a>
+    <a class="navbar-item" href="#skills-section"> Skills </a>
+    <a class="navbar-item" href="#work-section"> Work </a>
+    <a class="navbar-item" href="#interests-section"> Interests </a>
+    <a class="navbar-item" href="#contact-section"> Contact </a>
+  </nav>
+
+  <div id="parent">
+    Lara Thompson | Web Developer
+  </div>
+
+
+
+
+
+  <section class="about" id="about-section">
+    <h1 class="work-title"> ABOUT </h1>
+    <hr class="underline" />
+    <div class="columns">
+      <div class="column is-one-quarter">
+        <img src="me.jpeg" id="profile-image" alt="profile" width="250px">
+      </div>
+      <p class="info" id="about-text"> Whilst being a classroom teacher and volunteering teaching English at a refugee
+        camp in Athens, I became
+        interested in how to effectively analyse and present data to diverse audiences. As a GA software immersive
+        graduate, I am now hoping to further my experience in full stack development whilst working for a dynamic
+        and
+        creative organisation that utilises technology to facilitate and encourage a more equitable world.
+      <br><br>Aside from my interest in coding, I spend my free time throwing pottery 🏺, scuba diving 🤿 (when I have the opportunity) and attempting to master magic tricks 🎩. 
+      </p>
     </div>
+  </section>
+
+  <section class="skills" id="skills-section">
+    <h1 class="work-title">SKILLS</h1>
+    <hr class="underline" />
+    <div class="hardskills">
+      <p> HTML | SCSS | JavaScript | React | Ruby </p>
+      <p>Express | Node.js | Python | PostgreSQL | SQLAlchemy | Mongoose </p>
+      <p> Mongo | Webpack | Flask | Mocha | Chai | Insomnia </p>
+      <p> Git | GitHub | Heroku | Bulma | VSCode | Babel </p>
+    </div>
+    <div class="softskills">
+      <p> Leadership | Resilience | Organisation | Adaptability </p>
+      <p> Problem-solving | Communication | Collaboration</p>
+    </div>
+  </section>
 
 
 
+  <section class="work-section" id="work-section">
+    <h1 class="work-title">WORK</h1>
+    <hr class="underline" />
+    <div class="singleProject">
+      <div class="projectText">
 
-
-    <section class="about" id="about-section">
-      <h1 class="work-title"> ABOUT </h1>
-      <hr class="underline"/>
-      <div class="columns">
-        <div class="column is-one-quarter">
-          <img src="me.jpeg" id="profile-image" alt="profile" width="250px">
-        </div>
-        <p class="info" id="about-text"> Whilst being a classroom teacher and volunteering teaching English at a refugee
-          camp in Athens, I became
-          interested in how to effectively analyse and present data to diverse audiences. As a GA software immersive
-          graduate, I am now hoping to further my experience in full stack development whilst working for a dynamic
-          and
-          creative organisation that utilises technology to facilitate and encourage a more equitable world. </p>
+        <h1 class="title">Pavlova</h1>
+        <p class="project-details"><strong>Type:</strong> React, Python, Flask App | <strong>Duration:</strong> 1 week
+          |
+          <strong>Project:</strong> Group</p>
+        <section class="projectinfo">
+          <div class="project-desc">
+            <br>
+            <p class="project-text">
+              You dating life doesn't have to be a palaver - get Pavlova and find yourself a lover!
+              For my final project at GA, my team and I wanted to design a logic-focused app rathen than consuming
+              information from a public API. Given the recent surge in the popularity of dating apps, we thought we
+              would try and design our own! This app allows users to register, login and set gender and age
+              preferences which determines which users they can like/dislike/match with.
+              This project used a Python/Flask backend framework whilst using React on the frontend. As well as
+              solidifying my knowledge of these languages, I became confident at using Cloudinary to insert images and
+              SQLAlchemy to store data.
+            </p>
+          </div>
+          <div class="project-links">
+            <a target="_blank" class="button" href=" https://pav---lova.herokuapp.com/#">Pavlova</a>
+            <a target="_blank" class="button" href="https://github.com/larathompson/pavlovadating">Github</a>
+          </div>
       </div>
-    </section>
-
-    <section class="skills" id="skills-section">
-      <h1 class="work-title">SKILLS</h1>
-      <hr class="underline"/>
-      <div class="hardskills">
-        <p> HTML   |   SCSS   |   JavaScript   |   React   |   Ruby </p>
-        <p>Express   |  Node.js   |   Python   |   PostgreSQL   |   SQLAlchemy   |   Mongoose </p>
-        <p> Mongo   |   Webpack   |   Flask   |   Mocha   |   Chai   |   Insomnia </p>
-        <p> Git   |   GitHub   |   Heroku   |   Bulma   |   VSCode   |   Babel </p>
+      <div class="images">
+        <img class="static" width="550px" src="home.png" alt="home">
       </div>
-      <div class="softskills">
-        <p> Leadership   |   Resilience   |   Organisation   |   Adaptability </p>
-        <p> Problem-solving   |   Communication   |   Collaboration</p>
-      </div>
-    </section>
+  </section>
 
 
 
-    <section class="work-section" id="work-section">
-      <h1 class="work-title">WORK</h1>
-      <hr class="underline"/>
-      <div class="singleProject">
-        <div class="projectText">
-
-          <h1 class="title">Pavlova</h1>
-          <p class="project-details"><strong>Type:</strong> React, Python, Flask App | <strong>Duration:</strong> 1 week
-            |
-            <strong>Project:</strong> Group</p>
-          <section class="projectinfo">
-            <div class="project-desc">
-              <br>
-              <p class="project-text">
-                You dating life doesn't have to be a palaver - get Pavlova and find yourself a lover!
-                For my final project at GA, my team and I wanted to design a logic-focused app rathen than consuming
-                information from a public API. Given the recent surge in the popularity of dating apps, we thought we
-                would try and design our own! This app allows users to register, login and set gender and age
-                preferences which determines which users they can like/dislike/match with.
-                This project used a Python/Flask backend framework whilst using React on the frontend. As well as
-                solidifying my knowledge of these languages, I became confident at using Cloudinary to insert images and
-                SQLAlchemy to store data.
-              </p>
-            </div>
-            <div class="project-links">
-              <a target="_blank" class="button" href=" https://pav---lova.herokuapp.com/#">Pavlova</a>
-              <a target="_blank" class="button" href="https://github.com/larathompson/pavlovadating">Github</a>
-            </div>
-        </div>
-        <div class="images">
-          <img class="static" width="550px" src="home.png" alt="home">
-        </div>
-    </section>
-
- 
-  
 
 
 
@@ -110,7 +113,12 @@
         <div class="project-desc">
           <br>
           <p class="project-text">
-            As a team, we all had an interest in music and therefore, decided to make an app which allows a user to search a film and listen to the soundtrack to that film. Additionally, a user is able to see recent film releases and films directed by women as well as being able to comment on films and add films to their favourite list. Whilst building this app, we used Figma, GoogleDocs, GitHub and Trello to facilitate successful collaboration. We consumed data from the Spotify and Moviedb API's and used this to build a Mongodb, Express, React and Node app. 
+            As a team, we all had an interest in music and therefore, decided to make an app which allows a user to
+            search a film and listen to the soundtrack to that film. Additionally, a user is able to see recent film
+            releases and films directed by women as well as being able to comment on films and add films to their
+            favourite list. Whilst building this app, we used Figma, GoogleDocs, GitHub and Trello to facilitate
+            successful collaboration. We consumed data from the Spotify and Moviedb API's and used this to build a
+            Mongodb, Express, React and Node app.
           </p>
         </div>
         <div class="project-links">
@@ -139,7 +147,10 @@
         <div class="project-desc">
           <br>
           <p class="project-text">
-            During this paired hackathon, my partner and I decided to build a React app which allowed a user to search an artist and retrieve albums created by that artist. This was the first project that we completed where we had to use a public API and due to time constraints, we used the Deezer API rather than Spotify. As the app focused on searching for music, we styled our and app and got inspiration from Spotify. 
+            During this paired hackathon, my partner and I decided to build a React app which allowed a user to search
+            an artist and retrieve albums created by that artist. This was the first project that we completed where we
+            had to use a public API and due to time constraints, we used the Deezer API rather than Spotify. As the app
+            focused on searching for music, we styled our and app and got inspiration from Spotify.
           </p>
         </div>
         <div class="project-links">
@@ -164,7 +175,11 @@
         <div class="project-desc">
           <br>
           <p class="project-text">
-            For my first project, I designed and created the retro, grid-based game, Snake using HTML, CSS and JavaScript. The aim of the game is for the snake to eat the food which is randomely placed around the board. If successful, the snake grows in size and its speed increases. However, if the snake hits the wall, the user loses a life. In order to make the game more entertaining, I added neon lighting, music and a virtual audience to congratulate the user on the points they scored.  
+            For my first project, I designed and created the retro, grid-based game, Snake using HTML, CSS and
+            JavaScript. The aim of the game is for the snake to eat the food which is randomely placed around the board.
+            If successful, the snake grows in size and its speed increases. However, if the snake hits the wall, the
+            user loses a life. In order to make the game more entertaining, I added neon lighting, music and a virtual
+            audience to congratulate the user on the points they scored.
           </p>
         </div>
         <div class="project-links">
@@ -177,12 +192,36 @@
     </div>
     </section>
   </div>
+<!-- 
+  interests
+
+  <section class="interests" id="interests">
+    <h1 class="work-title"> INTERESTS</h1>
+    <hr class="underline" />
+    <div class="interest">
+      <h1 id="emoji">🏺</h1>
+      <p class="skillText"> Keen interest in pottery </p>
+    </div>
+    <div class="interest">
+      <h1 id="emoji">🤿</h1>
+      <p class="skillText"> Scuba Diving</p>
+    </div>
+    <div class="interest">
+      <h1 id="emoji">📊</h1>
+      <p class="skillText"> Data Visualisation</p>
+    </div>
+    <div class="interest">
+      <h1 id="emoji">🎩</h1>
+      <p class="skillText"> Magic</p>
+    </div>
+  </section>
+  </section> -->
 
 
   <section class="contact" id="contact-section">
     <section class="contact-section" id="contact">
       <h1 class="contactTitle">CONTACT</h1>
-      <hr class="underline"/>
+      <hr class="underline" />
       <div class="contact-links">
         <a class="button" href="mailto:larathompson288@gmail.com">Email Me</a>
         <a class="button" href="https://www.linkedin.com/in/lara--thompson">My LinkedIn</a>
@@ -192,12 +231,14 @@
   </section>
 
 
+
+
   </main>
 
   </div>
 
 
-  
+
 </body>
 
 </html>

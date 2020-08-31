@@ -304,5 +304,17 @@ a.button {
     }
 
 
+    /* interests */
+
+  #emoji {
+    font-size: 72px;
+  }
+
+  .interest {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+  }
+
 
 
